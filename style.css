@@ -1,0 +1,50 @@
+body,h1,h2,div,.button{font-family: "Verdana"}
+body, html {height: 100%}
+p {line-height: 2}
+header{
+	background-color:#7aabc4;
+	color: #F8F8FF;
+	padding: 13px;
+	text-align: center;
+	margin: 0px;
+	font-size: 16px;
+}
+.Navbar{
+	background-color:#7aabc4; 
+	position:fixed;
+	width:100%;
+	z-index:1;
+	bottom:0;
+	overflow: hidden;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: center;
+	padding:8px ;
+}
+.button{
+	text-decoration: none;
+	color: white;
+	background-color: #7aabc4;
+	border-width: 4px;
+	border-color: #000000;
+	padding:10px 0px;
+	margin: 0px;
+	text-align : center;
+	display: inline-block;
+}
+.button:hover{color:#8dd2f5;
+	background-color:#ccc}
+
+.intro{
+	padding: 20px;
+}
+
+h3{
+	text-align: center;
+
+}
+.Charts{
+padding: 20px;
+text-decoration: none;
+
+}
