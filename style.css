@@ -1,6 +1,5 @@
 body,h1,h2,div,.button{font-family: "Verdana"}
 body, html {height: 100%}
-p {line-height: 2}
 header{
 	background-color:#7aabc4;
 	color: #F8F8FF;
@@ -33,18 +32,56 @@ header{
 	display: inline-block;
 }
 .button:hover{color:#ffffff;
-	background-color:#a0d2eb}
-
-.intro{
-	padding: 20px;
+	background-color:#a0d2eb
 }
-
-h3{
+body {
+    background:rgb(247, 247, 247);
+    color:#679db8;
+  }
+   
+  *{
+    margin:0;
+    padding:0;
+  }
+   
+  h1 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  h3{
 	text-align: center;
-
-}
-.Charts{
-padding: 20px;
-text-decoration: none;
-
-}
+  } 
+  p {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 2;
+  }
+   
+  ul,li{
+    list-style:none;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    background:#bed8e6;
+    display:block;
+    height:15em;
+    width:30em;
+    padding:3px;
+  }
+  ul li{
+    margin:1em;
+  }
+  ul li a:hover,ul li a:focus{
+    transform: scale(1.1);
+    position:relative;
+  }
