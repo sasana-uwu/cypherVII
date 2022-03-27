@@ -32,8 +32,8 @@ header{
 	text-align : center;
 	display: inline-block;
 }
-.button:hover{color:#8dd2f5;
-	background-color:#ccc}
+.button:hover{color:#ffffff;
+	background-color:#a0d2eb}
 
 .intro{
 	padding: 20px;
